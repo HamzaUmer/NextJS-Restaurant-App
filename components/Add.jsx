@@ -41,7 +41,7 @@ const Add = ({setClose}) => {
                extraOptions,
                img:url
            };
-           await axios.post("https://next-js-restaurant-app.vercel.app/api/products", newItem);
+           await axios.post("http://localhost:3000/api/products", newItem);
            setClose(true);
          } catch(err) {
              console.log(err)
