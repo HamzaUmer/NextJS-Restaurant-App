@@ -1,0 +1,44 @@
+.container {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: #606c38;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.button {
+  height: 40px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #283618;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  transition: 1s all ease;
+}
+
+.button:hover {
+  color: #283618;
+  background-color: white;
+  border: 2px solid #283618;
+}
+
+.error {
+  font-size: 13px;
+  color: red;
+}

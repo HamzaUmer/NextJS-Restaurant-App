@@ -1,0 +1,17 @@
+.main {
+  padding: 10px;
+  margin: 20px;
+  background-color: #283618;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+.main:hover {
+  background-color: white;
+  border: 2px solid #283618;
+  color: #283618;
+}
