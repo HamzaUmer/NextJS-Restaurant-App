@@ -89,7 +89,7 @@ const Product = ({briyani}) => {
 }
 
 export const getServerSideProps = async ({params}) => {
-    const res = await axios.get(`http://localhost:3000/api/products/${params.id}`);
+    const res = await axios.get(`https://jsonplaceholder.typicode.com/api/products/${params.id}`);
     return {
       props: {
         briyani: res.data,

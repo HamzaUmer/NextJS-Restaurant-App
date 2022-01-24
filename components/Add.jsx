@@ -41,7 +41,7 @@ const Add = ({setClose}) => {
                extraOptions,
                img:url
            };
-           await axios.post("http://localhost:3000/api/products", newItem);
+           await axios.post("https://jsonplaceholder.typicode.com/api/products", newItem);
            setClose(true);
          } catch(err) {
              console.log(err)
